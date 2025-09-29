@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Format {
     static Scanner scanner = new Scanner(System.in);
     public static String formatName(String first, String last) {
-        return last + " , " + first;
+        return last + ", " + first;
     }
 
     public static void main(String[] args) {
