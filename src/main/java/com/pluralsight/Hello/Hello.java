@@ -6,10 +6,11 @@ public class Hello {
     static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
         sayHellWorld("Hello, World!");
         sayGoodbye("Goodbye!");
         sayGoodMorning("Good Morning!");
+
+        scanner.close();
     }
     public static void sayHellWorld(String sayHelloWorld) {
         System.out.println("Hello, World!");
